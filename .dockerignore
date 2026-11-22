@@ -1,7 +1,0 @@
-.git
-.env
-.env.*
-*.zip
-*.rar
-TELEGRAM_SETUP_FA.md
-telegram_migration.sql
