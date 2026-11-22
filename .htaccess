@@ -1,0 +1,4 @@
+# فایل‌های حساس/غیرعمومی نباید از بیرون قابل دانلود باشند
+<FilesMatch "^(config\.php|ai_config\.php|telegram_config\.php|ai\.php|.*\.sql|.*\.md|Dockerfile|docker-compose\.yml|railway-start\.sh|\.env.*)$">
+    Require all denied
+</FilesMatch>
