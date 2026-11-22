@@ -1,0 +1,3 @@
+<FilesMatch "^(config\.php|ai_config\.php|telegram_config\.php|telegram_migration\.sql|TELEGRAM_SETUP_FA\.md)$">
+    Require all denied
+</FilesMatch>
